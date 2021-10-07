@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ChangeSizeText</string>
+    <string name="edMessageHint">Introduce un mensaje</string>
+    <string name="btSend">Mostrar texto</string>
+</resources>
