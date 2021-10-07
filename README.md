@@ -7,7 +7,9 @@
 - [Posibles errores](#Posibles-errores)
 
 ### Proyecto finalizado
-
+<p align="center">
+<img src="https://user-images.githubusercontent.com/36245471/136454994-35d01f7c-5fb5-49bd-a104-8e7a8bf6d735.png" width="35%" /> <img src="https://user-images.githubusercontent.com/36245471/136455179-ef2f00c9-3cd3-4b26-8358-247db539feef.png" width=35% />
+</p>
 
 ### Objetivo del proyecto
 El objetivo del proyecto es pasar la información de un EditText de una activity a otra activity además de cambiar el tamaño del texto mediante un SeekBar.
@@ -32,6 +34,8 @@ La activity_view_message.xml debe tener:
  - 1 TextView.
 
 ### Clases
+----
+
 Las dos clases que vamos a crear deberan implementar la interfaz Serializable porque se pasarán en un Intent.
 
 #### Clase User
@@ -165,6 +169,8 @@ Añadir un método _getUser()_ para poder obtener desde el _getApplication()_
 ```
 
 ### Activities
+----
+
 #### ChangeSizeTextActivity
 1. Hacer el binding para ello creamos un objeto de la clase con el mismo nombre que el xml más Binding al final.
 
